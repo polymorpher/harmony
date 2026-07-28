@@ -16,7 +16,7 @@ http://api.hmny.io/
 
 ## Requirements
 
-### **Go 1.24.2**
+### **Go 1.26.5**
 ### **GMP and OpenSSL**
 
 On macOS:
@@ -276,4 +276,3 @@ See [`CONTRIBUTING`](CONTRIBUTING.md) for details.
 - Integration with WASM
 - Fast state synchronization
 - Auditable privacy asset using ZK proof
-

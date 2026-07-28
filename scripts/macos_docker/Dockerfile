@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 ARG TARGETARCH
-ARG GOLANG_VERSION="1.22.5"
+ARG GOLANG_VERSION="1.26.5"
 
 SHELL ["/bin/bash", "-c"]
 
@@ -61,4 +61,3 @@ RUN . ~/.bash_profile; \
 	go install github.com/stamblerre/gocode; \
 	go install golang.org/x/tools/...; \
 	go install honnef.co/go/tools/cmd/staticcheck/...
-

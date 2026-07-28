@@ -1,8 +1,8 @@
 module github.com/harmony-one/harmony
 
-go 1.24.0
+go 1.26.0
 
-toolchain go1.24.2
+toolchain go1.26.5
 
 require (
 	github.com/RoaringBitmap/roaring v1.2.3
